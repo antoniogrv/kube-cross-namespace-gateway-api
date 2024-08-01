@@ -1,1 +1,0 @@
-The application objects do not have a hard-coded namespace attached. Please use the `-n` option when deploying to the cluster.
