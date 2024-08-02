@@ -43,6 +43,8 @@ This means that application developers should be granted RBAC powers over all ob
 
 ### Scenario 2
 
+![Kong API Gatway - High Level Diagram](assets/kong_hld.png)
+
 As exihibited in [this blog post](https://konghq.com/blog/engineering/sending-traffic-across-namespaces-with-gateway-api) from the Kong team, a more *concise* alternative is possible. 
 
 In this scenario, you must configure the `Gateway` object in the gateway-01 namespace to explicitly accept which namespaces are allowed in the `HTTPRoutes` backendRefs definition. In the examples in `scenarios/scenario-2-kong-examples`, `backendRefs` in the `HTTPRoutes` do not have an *explicit* namespace -- this means that the namespaces is the same as the `HTTPRoute` object itself.
