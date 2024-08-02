@@ -2,8 +2,8 @@
 
 - [Gateway API SIG](https://gateway-api.sigs.k8s.io/)
 - [Gateway API Reference](https://gateway-api.sigs.k8s.io/api-types/gateway/)
-    - [Introduction to ReferenceGrants](https://gateway-api.sigs.k8s.io/api-types/referencegrant/)
-    - [ReferenceGrants API](https://gateway-api.sigs.k8s.io/reference/spec/#gateway.networking.k8s.io/v1alpha2.ReferenceGrant)
+- [Introduction to ReferenceGrants](https://gateway-api.sigs.k8s.io/api-types/referencegrant/)
+- [ReferenceGrants API](https://gateway-api.sigs.k8s.io/reference/spec/#gateway.networking.k8s.io/v1alpha2.ReferenceGrant)
 
 
 #### Scenario 1
